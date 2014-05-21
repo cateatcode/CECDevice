@@ -7,15 +7,15 @@
 Pod::Spec.new do |s|
   s.name             = "CECDevice"
   s.version          = "0.1.0"
-  s.summary          = "A short description of CECDevice."
+  s.summary          = "Common UIDevice utilities"
   s.description      = <<-DESC
-                       An optional longer description of CECDevice
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Include functions:
+                        1.iOS version:get\compare
+                        2.device type:iPad\iPhone\Simulator
+                        3.is retina
+                        4.is Camera avaliable
                        DESC
-  s.homepage         = "http://EXAMPLE/NAME"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/cateatcode/CECDevice"
   s.license          = 'MIT'
   s.author           = { "qiang.xu" => "antwork@126.com" }
   s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
