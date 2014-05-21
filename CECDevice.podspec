@@ -21,11 +21,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/cateatcode/CECDevice.git", :tag => s.version.to_s}
   # s.social_media_url = 'https://twitter.com/EXAMPLE'
 
-  # s.platform     = :ios, '5.0'
-  # s.ios.deployment_target = '5.0'
-  s.requires_arc = true
+  s.platform     = :ios, '5.0'
+  s.requires_arc = false
 
-  s.source_files = 'Classes/*'
+  s.source_files = 'Classes/*.{h,m}'
   # s.public_header_files = 'Classes/**/*.h'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
   # s.dependency 'JSONKit', '~> 1.4'
